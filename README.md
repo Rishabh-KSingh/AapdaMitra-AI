@@ -10,7 +10,7 @@ It combines **Voice AI, Security, and Virality** into one public-safety experien
 
 # 🏆 Independence Day AI Hackathon
 
-**Industry:** Government / Public Safety
+**Industry:** Government
 
 **Hackathon Themes:**
 

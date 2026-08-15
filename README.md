@@ -1,3 +1,17 @@
+# 👥 Team
+
+## Console Ninjas
+
+**Team Console Ninjas** is building AapdaMitra AI for the Independence Day AI Hackathon.
+
+### Team Members
+
+| Name | Role |
+|---|---|
+| **Rishabh Kumar** | Co-Builder / Developer |
+| **Ariba Rehman** | Co-Builder / Developer |
+
+Together, we are building AapdaMitra AI — a voice-first disaster response assistant focused on **Voice AI, Security, and Virality** for safer communities across India.
 # 🇮🇳 AapdaMitra AI
 
 ## Every Crisis. Every Voice. Every Indian.

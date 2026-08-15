@@ -1,278 +1,987 @@
-# Voice Agent Starter — Powered by Murf Falcon
+# 🇮🇳 AapdaMitra AI
 
-Build a production voice AI agent in 5 minutes. Powered by the fastest TTS on the market - swap the system prompt to build anything from customer support to language tutors.
+## Every Crisis. Every Voice. Every Indian.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Murf Falcon](https://img.shields.io/badge/TTS-Murf%20Falcon-6366F1)](https://murf.ai/api/docs/text-to-speech/streaming) [![LiveKit](https://img.shields.io/badge/Transport-LiveKit-002cf2)](https://docs.livekit.io) [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+**AapdaMitra AI** is a multilingual, voice-first AI disaster-response assistant designed to help people communicate, understand, and respond during emergencies.
 
----
-
-## Why Murf Falcon
-
-- **55ms model latency** - fastest production TTS
-- **130ms time-to-first-audio** across 10+ global regions
-- **$0.01/1000 characters** - up to 10x cheaper than alternatives
-- **150+ voices** across 35+ languages
-- **99.38% pronunciation accuracy**
+It combines **Voice AI, Security, and Virality** into one public-safety experience — enabling people to speak naturally with an AI assistant, receive actionable disaster guidance, access location-aware assistance, initiate emergency workflows, and share safety information with their communities.
 
 ---
 
-## Architecture
+# 🏆 Independence Day AI Hackathon
+
+**Industry:** Government / Public Safety
+
+**Hackathon Themes:**
+
+* 🎙️ Voice AI
+* 🔐 Security
+* 📢 Virality
+
+AapdaMitra AI is designed specifically around the three core themes of the hackathon.
+
+---
+
+# 🚨 The Problem
+
+During a disaster, people often face several problems at the same time:
+
+* They don't know what action to take immediately.
+* They may not be able to type quickly during a crisis.
+* Language can become a major communication barrier.
+* Emergency information can be scattered across multiple services.
+* People may not know where the nearest safe shelter or emergency facility is.
+* Important safety information may not reach nearby communities quickly.
+* Sharing exact personal location publicly can create privacy risks.
+
+In an emergency, the gap between:
+
+> **"Something is wrong."**
+
+and
+
+> **"I know what to do next."**
+
+can cost valuable time.
+
+AapdaMitra AI is designed to reduce that gap.
+
+---
+
+# 💡 The Solution
+
+AapdaMitra AI provides a conversational, voice-first emergency assistance experience.
+
+A citizen can simply speak naturally:
+
+> **"Mere area mein flood aa gaya hai."**
+
+AapdaMitra can understand the situation and guide the user through an emergency-response flow:
+
+```text
+Citizen speaks
+      ↓
+Voice AI
+      ↓
+Understand the emergency
+      ↓
+Identify disaster type
+      ↓
+Provide immediate safety guidance
+      ↓
+Assist with location
+      ↓
+Find nearby help
+      ↓
+Emergency workflow
+      ↓
+Generate safety alert
+      ↓
+Share information with the community
+```
+
+The goal is to make emergency assistance **faster, more accessible, more understandable, and more connected.**
+
+---
+
+# 🎙️ Theme 1 — Voice AI
+
+## Voice-first emergency assistance
+
+Voice is the primary interaction model of AapdaMitra AI.
+
+During emergencies, typing may be slow, difficult, or inaccessible. A user should be able to simply speak their situation.
+
+The voice experience is designed around:
+
+* Real-time voice conversation
+* AI voice agent
+* Speech-to-text
+* AI reasoning
+* Text-to-speech
+* Live conversation transcript
+* Audio visualization
+* Voice connection status
+* Multilingual interaction
+* Accessibility-focused interaction
+
+### Example
+
+User:
+
+> "Mere area mein flood aa gaya hai."
+
+AapdaMitra:
+
+> "Please move to higher ground and avoid fast-moving water. I can also help you find nearby safe locations."
+
+This makes the AI assistant useful even when the user cannot comfortably type.
+
+---
+
+# 🔐 Theme 2 — Security
+
+## Safer emergency experiences
+
+Emergency applications can handle sensitive information such as:
+
+* Location
+* Emergency details
+* User identity
+* Conversation data
+* Incident information
+
+AapdaMitra AI is designed with privacy and security as first-class considerations.
+
+### Security principles
+
+* Server-side API secrets
+* Environment-variable based configuration
+* No API keys exposed to the client
+* Location permission and consent
+* Emergency-request validation
+* Input validation
+* Secure real-time communication architecture
+* Privacy-aware safety alert generation
+* Clear distinction between live and demo functionality
+* Suspicious emergency-request detection architecture
+* Audit logging architecture
+
+### Privacy-first sharing
+
+Public safety alerts should never expose:
+
+* Exact private GPS coordinates
+* Private user information
+* Sensitive conversation content
+
+AapdaMitra focuses on sharing **useful safety information**, not personal information.
+
+---
+
+# 📢 Theme 3 — Virality
+
+## Turning one safety message into community awareness
+
+During disasters, information is only useful if people receive it quickly.
+
+AapdaMitra introduces a **Share Safety Alert** experience.
+
+A user can generate a concise, multilingual safety message containing:
+
+* Disaster type
+* Severity
+* General affected area
+* Immediate safety instructions
+* Emergency information
+* Verification status
+* Timestamp
+* AapdaMitra branding
+
+The alert can be prepared for community distribution.
+
+### The idea
+
+```text
+One emergency
+      ↓
+One useful safety message
+      ↓
+Multilingual safety alert
+      ↓
+Community sharing
+      ↓
+More people informed
+      ↓
+Faster community response
+```
+
+This is not entertainment-driven virality.
+
+It is **life-saving information distribution.**
+
+> **AapdaMitra helps important safety information reach communities faster.**
+
+---
+
+# 🇮🇳 Independence Day Special
+
+AapdaMitra AI is designed as an Independence Day Special experience.
+
+The visual identity takes inspiration from the Indian national tricolor:
+
+* 🟠 Saffron
+* ⚪ White
+* 🟢 Green
+
+The design also uses subtle Ashoka Chakra-inspired visual elements.
+
+The objective is not to create a festival-themed website.
+
+Instead, the design represents:
+
+**Technology serving people.**
+
+**Innovation serving safety.**
+
+**AI serving communities.**
+
+### Mission
+
+> **Every Crisis. Every Voice. Every Indian.**
+
+---
+
+# ✨ Key Features
+
+## 🎙️ AI Voice Assistant
+
+* Real-time voice interaction
+* AI conversational agent
+* Speech recognition
+* Text-to-speech
+* Live transcript
+* Audio visualization
+* Listening state
+* Processing state
+* Speaking state
+* Connection status
+* Multilingual interface
+
+---
+
+## 🌐 Multilingual Assistance
+
+Designed for India's diverse language landscape.
+
+Supported languages include:
+
+* English
+* हिंदी
+* বাংলা
+* मराठी
+* தமிழ்
+
+The architecture can be extended to additional Indian languages.
+
+---
+
+## 🚨 Emergency SOS
+
+A dedicated emergency workflow allows users to initiate an SOS process.
+
+The flow can include:
+
+1. Emergency confirmation
+2. Disaster type selection
+3. Severity selection
+4. Location permission
+5. Location capture
+6. Emergency request creation
+7. Emergency status tracking
+
+Possible states:
+
+```text
+READY
+↓
+CONFIRMATION
+↓
+LOCATING
+↓
+REQUEST CREATED
+↓
+SENT
+↓
+ACKNOWLEDGED
+↓
+RESOLVED
+```
+
+If a real emergency-dispatch integration is not configured, the system clearly identifies the flow as demo functionality.
+
+**AapdaMitra never falsely claims that an emergency service was contacted.**
+
+---
+
+# 📍 Live Location & Nearby Help
+
+AapdaMitra provides location-aware assistance.
+
+Potential nearby services include:
+
+* 🛟 Safe Shelters
+* 🏥 Hospitals
+* 👮 Police Stations
+* 🚒 Fire Stations
+* 🏕️ Relief Camps
+* 🚨 Emergency Services
+
+The experience is designed around user consent and privacy.
+
+Where live location/service data is unavailable, demo data is clearly labelled rather than presented as real-time information.
+
+---
+
+# 🧠 AI Disaster Intelligence
+
+AapdaMitra is designed to understand common emergency situations such as:
+
+* 🌊 Flood
+* 🌎 Earthquake
+* 🔥 Fire
+* 🌀 Cyclone
+* ⛰️ Landslide
+* ☀️ Heatwave
+* ⚡ Lightning
+* 🌊 Tsunami
+* 🏥 Medical Emergency
+* 🚨 General Emergency
+
+The AI response can be structured around:
+
+### Immediate Actions
+
+What the user should do right now.
+
+### Things to Avoid
+
+Potentially dangerous actions or areas to avoid.
+
+### Evacuation Guidance
+
+Whether moving to a safer location may be appropriate.
+
+### Emergency Assistance
+
+Whether emergency services should be recommended.
+
+---
+
+# 🛡️ Safety Guidance
+
+The Safety Center provides disaster-specific information.
+
+For example:
+
+### Flood
+
+* Move to higher ground.
+* Avoid fast-moving water.
+* Stay away from electrical infrastructure.
+* Do not attempt to cross flooded roads.
+
+### Earthquake
+
+* Drop, cover, and hold.
+* Move away from windows.
+* Avoid damaged structures.
+* Follow official evacuation instructions.
+
+### Fire
+
+* Move away from smoke and flames.
+* Follow safe evacuation routes.
+* Avoid elevators where evacuation guidance requires stairs.
+* Contact emergency services when necessary.
+
+### Cyclone
+
+* Stay indoors when advised.
+* Stay away from windows.
+* Follow official warnings.
+* Keep emergency supplies accessible.
+
+Safety guidance should remain concise, practical, and responsible.
+
+---
+
+# 📢 Safety Alerts
+
+The Alerts experience provides a dedicated place for emergency information.
+
+Each alert can include:
+
+* Disaster
+* Severity
+* General affected area
+* Timestamp
+* Safety guidance
+* Verification state
+
+Possible states:
+
+```text
+VERIFIED
+UNVERIFIED
+SUSPICIOUS
+```
+
+Verification must only be claimed when an actual trusted verification source exists.
+
+Demo alerts must be clearly identified as demo content.
+
+---
+
+# 📊 Analytics
+
+AapdaMitra includes an analytics experience designed for emergency-response monitoring.
+
+Potential metrics include:
+
+* Emergency Requests
+* Active Incidents
+* Resolved Incidents
+* People Assisted
+* Average Response Time
+* Alerts Generated
+* Alerts Shared
+* Estimated Community Reach
+
+Analytics can include:
+
+* Emergency requests over time
+* Disaster-type distribution
+* Severity distribution
+* Language usage
+* Response status
+* Community alert sharing
+
+Live operational data and demo data must always be clearly distinguished.
+
+---
+
+# 🗺️ Product Pages
+
+AapdaMitra is designed as a multi-page application rather than putting every feature into one dashboard.
+
+### `/`
+
+**Home**
+
+Product introduction, Independence Day branding, assistant overview, quick actions and system status.
+
+### `/assistant`
+
+**AI Voice Assistant**
+
+Real-time voice interaction, transcript, audio visualization and multilingual assistance.
+
+### `/emergency`
+
+**Emergency Center**
+
+SOS workflow, incident type, severity, location and emergency status.
+
+### `/location`
+
+**Live Location & Nearby Help**
+
+Map, current location, shelters, hospitals, police, fire and relief facilities.
+
+### `/safety`
+
+**Safety Center**
+
+Disaster-specific safety instructions and emergency guidance.
+
+### `/alerts`
+
+**Disaster Alerts**
+
+Emergency information, verification states and Share Safety Alert.
+
+### `/analytics`
+
+**Analytics**
+
+Emergency, response and community-distribution metrics.
+
+### `/settings`
+
+**Settings**
+
+Language, voice, privacy, location and user preferences.
+
+---
+
+# 🏗️ Architecture
 
 ```mermaid
-flowchart LR
-    A[🎙️ User speaks] -->|audio| B[Deepgram STT]
-    B -->|text| C[LLM]
-    C -->|response text| D[Murf Falcon TTS]
-    D -->|audio| E[LiveKit]
-    E -->|stream| F[🔊 User hears]
+flowchart TD
 
-    style A fill:#444441,stroke:#888780,color:#fff
-    style B fill:#185FA5,stroke:#85B7EB,color:#fff
-    style C fill:#534AB7,stroke:#AFA9EC,color:#fff
-    style D fill:#0F6E56,stroke:#5DCAA5,color:#fff
-    style E fill:#D85A30,stroke:#F0997B,color:#fff
-    style F fill:#444441,stroke:#888780,color:#fff
+    A[🇮🇳 Citizen] --> B[AapdaMitra AI]
+
+    B --> C[🎙️ Voice Assistant]
+    B --> D[🚨 Emergency Center]
+    B --> E[📍 Location]
+    B --> F[🧠 Safety Intelligence]
+    B --> G[📢 Safety Alerts]
+    B --> H[📊 Analytics]
+
+    C --> I[LiveKit]
+    I --> J[AI Voice Agent]
+
+    J --> K[Speech-to-Text]
+    J --> L[AI Reasoning]
+    J --> M[Text-to-Speech]
+
+    D --> N[Emergency Request]
+
+    E --> O[Location Services]
+    E --> P[Nearby Help]
+
+    F --> Q[Disaster Classification]
+    F --> R[Safety Guidance]
+
+    G --> S[Community Distribution]
+
+    N --> T[Emergency Data]
+    S --> T
+    T --> H
 ```
 
 ---
 
-## Quickstart
+# 🛠️ Technology Stack
 
-### Prerequisites
+## Frontend
 
-- **Python** 3.10+
-- **[uv](https://docs.astral.sh/uv/)** - fast Python package manager
-  ```bash
-  # macOS/Linux
-  curl -LsSf https://astral.sh/uv/install.sh | sh
-  # Windows (PowerShell)
-  powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
-  ```
-- **Node.js** 18+
-- **pnpm** — fast Node package manager
-  ```bash
-  npm install -g pnpm
-  ```
-- A [LiveKit](https://cloud.livekit.io/) project (free tier available)
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* shadcn/ui
+* Framer Motion
+* Lucide Icons
 
-### Step 1: Clone the repo
+## Voice AI
 
-```bash
-git clone https://github.com/murf-ai/murf-livekit-starter.git
-cd murf-livekit-starter
+* LiveKit
+* LiveKit Agents
+* Murf AI
+* Speech-to-Text
+* AI conversational agent
+
+## Backend
+
+* Python
+* LiveKit Agents
+* API services
+* Emergency-response service abstractions
+
+## Location
+
+* Browser Geolocation API
+* OpenStreetMap / map integration
+
+## Analytics
+
+* Recharts
+* API-driven data architecture
+
+---
+
+# 📁 Project Structure
+
+```text
+AapdaMitra-AI/
+│
+├── backend/
+│   ├── src/
+│   │   └── agent.py
+│   ├── tests/
+│   ├── pyproject.toml
+│   ├── railway.toml
+│   └── .env.example
+│
+├── frontend/
+│   ├── app/
+│   │   ├── assistant/
+│   │   ├── emergency/
+│   │   ├── location/
+│   │   ├── safety/
+│   │   ├── alerts/
+│   │   ├── analytics/
+│   │   ├── settings/
+│   │   ├── api/
+│   │   └── page.tsx
+│   │
+│   ├── components/
+│   │   ├── agents-ui/
+│   │   ├── ai-elements/
+│   │   ├── app/
+│   │   └── ui/
+│   │
+│   ├── hooks/
+│   ├── lib/
+│   ├── public/
+│   └── package.json
+│
+├── start_app.sh
+├── start_app.ps1
+├── AGENTS.md
+├── LICENSE
+└── README.md
 ```
 
-### Step 2: Set up environment variables
+---
 
-Create `.env.local` in both `backend/` and `frontend/` (copy from `.env.example` in each). You need:
+# 🚀 Getting Started
 
-| Variable                               | Where to get it                                        | Required |
-| -------------------------------------- | ------------------------------------------------------ | -------- |
-| `LIVEKIT_URL`                          | LiveKit Cloud dashboard                                | Yes      |
-| `LIVEKIT_API_KEY`                      | LiveKit Cloud dashboard                                | Yes      |
-| `LIVEKIT_API_SECRET`                   | LiveKit Cloud dashboard                                | Yes      |
-| `MURF_API_KEY`                         | [murf.ai/api/dashboard](https://murf.ai/api/dashboard) | Yes      |
-| `DEEPGRAM_API_KEY`                     | [deepgram.com](https://deepgram.com)                   | Yes      |
-| `GOOGLE_API_KEY` (or `OPENAI_API_KEY`) | Depends on LLM choice                                  | Yes      |
+## Prerequisites
 
-### Step 3: Install backend dependencies
+Install:
+
+* Node.js 18+
+* pnpm
+* Python 3.10+
+* uv
+* LiveKit project
+* Required AI/voice credentials
+
+---
+
+## 1. Clone the repository
+
+```bash
+git clone <your-repository-url>
+cd AapdaMitra-AI
+```
+
+---
+
+## 2. Backend
 
 ```bash
 cd backend
 uv sync
-uv run python src/agent.py download-files
 ```
 
-### Step 4: Install frontend dependencies
+Create your environment file:
+
+```bash
+cp .env.example .env
+```
+
+Add the required backend credentials.
+
+Then return to the root:
+
+```bash
+cd ..
+```
+
+---
+
+## 3. Frontend
 
 ```bash
 cd frontend
 pnpm install
 ```
 
-### Step 5: Run it
-
-**Option A - All-in-one (from repo root):**
+Create the local environment file:
 
 ```bash
-# macOS/Linux
-chmod +x start_app.sh
-./start_app.sh
-
-# Windows (PowerShell)
-.\start_app.ps1
+cp .env.example .env.local
 ```
 
-**Option B - Separate terminals:**
+Configure the required LiveKit values.
+
+---
+
+## 4. Run locally
+
+From the `frontend` directory:
 
 ```bash
-# Terminal 1 — LiveKit Server
-livekit-server --dev
-
-# Terminal 2 — Backend agent
-cd backend && uv run python src/agent.py dev
-
-# Terminal 3 — Frontend
-cd frontend && pnpm dev
+pnpm dev
 ```
 
-Then open **http://localhost:3000** in your browser.
+Open:
 
-You should now see the voice agent UI. Click **Start talking**, allow microphone access, and speak — the agent will respond with Murf Falcon TTS. Ensure your backend and (if using Option B) LiveKit server are running.
+```text
+http://localhost:3000
+```
 
 ---
 
-## Deploy
+# 🎙️ Environment Configuration
 
-Want to deploy this beyond localhost? You'll need to deploy **two services**: the backend agent and the frontend. Both must use the same LiveKit project.
+The frontend uses LiveKit configuration similar to:
 
-> This is a two-service app — the backend agent and the frontend UI deploy separately. You'll need both running and connected to the same LiveKit project.
+```env
+LIVEKIT_URL=
+LIVEKIT_API_KEY=
+LIVEKIT_API_SECRET=
+AGENT_NAME=
+```
 
-### Backend (Python agent) — Deploy to Railway
+Keep all secrets private.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/tIVCF1?referralCode=cNjn2P&utm_medium=integration&utm_source=template&utm_campaign=generic)
+Never commit:
 
-Set these environment variables in Railway:
+```text
+.env
+.env.local
+.env.*.local
+```
 
-- `MURF_API_KEY`
-- `DEEPGRAM_API_KEY`
-- `GOOGLE_API_KEY` or `OPENAI_API_KEY`
-- `LIVEKIT_URL`
-- `LIVEKIT_API_KEY`
-- `LIVEKIT_API_SECRET`
+Only safe example configuration should be committed:
 
-The backend runs as a long-lived Python process that connects to LiveKit as an agent. Railway handles this well.
-
-### Frontend (Next.js) — Deploy to Vercel
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/murf-ai/murf-livekit-starter&root-directory=frontend&env=LIVEKIT_URL,LIVEKIT_API_KEY,LIVEKIT_API_SECRET&project-name=murf-voice-agent&repository-name=murf-voice-agent)
-
-Set these environment variables in Vercel:
-
-- `LIVEKIT_URL`
-- `LIVEKIT_API_KEY`
-- `LIVEKIT_API_SECRET`
-- `AGENT_NAME` (optional — for explicit agent dispatch)
-
-The frontend is a standard Next.js app. Point it at the same LiveKit instance your backend agent is connected to.
-
-### Connecting them
-
-The frontend and backend don't call each other directly — they both connect to **LiveKit**, which handles the real-time audio transport.
-
-1. Use the **same** `LIVEKIT_URL`, `LIVEKIT_API_KEY`, and `LIVEKIT_API_SECRET` on both Railway and Vercel
-2. Set `AGENT_NAME=my-agent` on Vercel — this matches the `agent_name="my-agent"` registered in `backend/src/agent.py`
-3. Verify: Railway logs should show the agent connected to LiveKit. Open your Vercel URL, click **Start talking** — the agent should respond
-
-If the agent doesn't connect, double-check that both services point to the same LiveKit project and that the backend is running (check Railway logs).
+```text
+.env.example
+```
 
 ---
 
-## Change the Use Case
+# 🔐 Security Guidelines
 
-The default system prompt makes this a **customer support agent**. You can change the agent’s behavior by editing the prompt.
+AapdaMitra follows these principles:
 
-**Where the prompt lives:** `backend/src/agent.py`- the `SYSTEM_PROMPT` constant (near the top of the file, after the imports). Change that string to change what your voice agent does.
+### Never expose secrets
 
-### Example prompts (copy-paste)
+API keys and private credentials must remain server-side.
 
-**Customer Support (default):**
+### Location requires consent
 
-```
-You are a friendly and efficient customer support agent for a tech company. Help users with account issues, billing questions, and product troubleshooting. Be concise, empathetic, and solution-oriented. If you don't know something, say so honestly and offer to escalate.
-```
+The application should request permission before accessing browser location.
 
-**Language Tutor:**
+### Protect private information
 
-```
-You are a patient and encouraging language tutor helping the user practice conversational Spanish. Speak primarily in Spanish but switch to English to explain grammar or vocabulary when needed. Correct mistakes gently and suggest better phrasing. Keep conversations natural and fun.
-```
+Private user information should never be included in public safety alerts.
 
-**AI Receptionist:**
+### Don't fake emergency actions
 
-```
-You are a professional receptionist for a medical clinic. Help callers schedule appointments, answer questions about office hours and services, and take messages for doctors. Be warm but efficient. Ask for the caller's name and reason for calling upfront.
-```
+The application must never claim that:
 
-See the Configuration section below for voice, STT, and LLM options.
+* Police were contacted
+* Ambulance was dispatched
+* Fire services were notified
+* Government authorities verified an alert
 
----
+unless the real integration actually performed that action.
 
-## Configuration
+### Demo data must be labelled
 
-### Murf voice
-
-Edit the `tts=murf.TTS(...)` call in `backend/src/agent.py`. Set the `voice` argument to any Murf voice ID. Examples:
-
-- `Anisha` — Indian English (female, default in this starter)
-- `Pooja` — Indian English (female)
-- `Samar` — Indian English (male)
-- `Amara` — US English (female)
-- `Gordon` — US English (male)
-- `Hazel` — UK English (female)
-- `Bertie` — UK English (male)
-
-Browse all voices: [Murf Voice Library](https://murf.ai/api/docs/voices-styles/voice-library).
-
-### STT provider
-
-STT is configured in `backend/src/agent.py` in the `AgentSession(stt=...)` call. The default is Deepgram (`deepgram.STT(model="nova-3")`). You can swap to another LiveKit-compatible STT plugin if needed.
-
-### LLM (Gemini vs OpenAI)
-
-- **Gemini (default):** Set `GOOGLE_API_KEY` and use `llm=google.LLM(model="gemini-3.5-flash-lite")` in `agent.py`.
-- **OpenAI:** Set `OPENAI_API_KEY`, add the OpenAI plugin, and use the corresponding `llm=openai.LLM(...)` in `agent.py`.
-
-### Audio format
-
-Murf Falcon and LiveKit handle audio format internally. For advanced options, see [Murf API docs](https://murf.ai/api/docs) and [LiveKit docs](https://docs.livekit.io).
+Mock locations, statistics, alerts and emergency states should be clearly identified.
 
 ---
 
-## Project Structure
+# 🧪 Hackathon Demo Mode
 
+AapdaMitra is designed to provide a reliable hackathon demonstration even when every production integration is not available.
+
+Recommended demo:
+
+```text
+1. Open AapdaMitra
+        ↓
+2. Select Hindi
+        ↓
+3. Start Voice Assistance
+        ↓
+4. Say:
+   "Mere area mein flood aa gaya hai."
+        ↓
+5. Show live transcript
+        ↓
+6. Show flood understanding
+        ↓
+7. Show immediate safety guidance
+        ↓
+8. Open Emergency Center
+        ↓
+9. Start Demo SOS
+        ↓
+10. Show location assistance
+        ↓
+11. Find nearby shelter
+        ↓
+12. Open Safety Center
+        ↓
+13. Generate Safety Alert
+        ↓
+14. Share multilingual alert
+        ↓
+15. Open Analytics
+        ↓
+16. Show community reach
 ```
-murf-livekit-starter/
-├── backend/                 # Python voice agent (LiveKit Agents + Murf Falcon)
-│   ├── src/
-│   │   └── agent.py         # Agent entrypoint, pipeline (STT/LLM/TTS), system prompt
-│   ├── tests/               # Agent tests
-│   ├── .env.example         # Backend env template
-│   ├── pyproject.toml       # Python deps (uv)
-│   └── railway.toml         # Railway deploy config
-├── frontend/                # Next.js UI for voice sessions
-│   ├── app/
-│   │   ├── page.tsx         # Main page
-│   │   └── api/token/       # LiveKit token endpoint (dev)
-│   ├── components/          # UI (agents-ui, app config, theme)
-│   ├── app-config.ts        # Branding, title, button text, accent
-│   ├── .env.example         # Frontend env template
-│   └── package.json         # Node deps (pnpm)
-├── start_app.sh             # Start LiveKit + backend + frontend (macOS/Linux)
-├── start_app.ps1            # Start LiveKit + backend + frontend (Windows)
-├── README.md                # This file
-```
-
-For deeper documentation on each part, see:
-
-- [Backend Documentation](./backend/README.md) — agent pipeline, voice/LLM/STT configuration, testing, deployment
-- [Frontend Documentation](./frontend/README.md) — UI customization, visualizers, theming, component architecture
 
 ---
 
-## Links
+# 🎬 Recommended Judge Presentation
 
-- [Murf API Docs](https://murf.ai/api/docs)
-- [Murf Voice Library](https://murf.ai/api/docs/voices-styles/voice-library)
-- [LiveKit Docs](https://docs.livekit.io)
-- [Deepgram Docs](https://developers.deepgram.com)
-- [Murf Falcon Benchmarks](https://murf.ai/falcon/benchmarks)
-- [TTS Latency Benchmarker](https://github.com/sahilsgupta/tts-latency-benchmarker) — run your own p50/p95 tests across providers
-- [Murf Discord](https://discord.gg/FbKAy96Sz7)
-- [Murf Startup Incubator](https://murf.ai/api) — 50M free characters for startups
+Start with the problem, not the technology.
+
+### Opening
+
+> "During a disaster, people don't need another complicated application. They need someone—or something—that understands them immediately."
+
+Then demonstrate:
+
+### Step 1 — Voice
+
+Speak naturally:
+
+> "Mere area mein flood aa gaya hai."
+
+### Step 2 — Intelligence
+
+Show that AapdaMitra understands the disaster and provides immediate guidance.
+
+### Step 3 — Emergency
+
+Show the SOS workflow.
+
+### Step 4 — Location
+
+Show nearby help.
+
+### Step 5 — Security
+
+Show location consent and privacy-aware handling.
+
+### Step 6 — Virality
+
+Generate a multilingual safety alert and demonstrate how it can reach a community.
+
+### Step 7 — Analytics
+
+Show the impact and response metrics.
 
 ---
 
-## License
+# 🎯 Why This Product Matters
 
-MIT
+AapdaMitra is built around a simple idea:
+
+> **In a crisis, information should be fast, understandable, accessible, and safe.**
+
+The platform combines:
+
+```text
+Voice
+  +
+AI
+  +
+Safety
+  +
+Location
+  +
+Security
+  +
+Community Distribution
+```
+
+into one experience.
+
+---
+
+# 🌍 Impact
+
+AapdaMitra aims to improve the time between:
+
+**Emergency detected**
+
+and
+
+**Action understood.**
+
+It can help reduce barriers caused by:
+
+* Language
+* Accessibility
+* Information overload
+* Lack of local guidance
+* Difficulty communicating during emergencies
+
+The platform is designed to support citizens while keeping privacy, safety, and responsible AI use at the center.
+
+---
+
+# 🔮 Future Roadmap
+
+Future versions can integrate:
+
+### Government & Disaster Systems
+
+* Official disaster-warning feeds
+* Government emergency systems
+* Verified emergency alerts
+* Official relief-camp information
+
+### Real-Time Intelligence
+
+* Weather intelligence
+* Flood monitoring
+* Cyclone tracking
+* Earthquake information
+* Disaster-risk analysis
+
+### Emergency Response
+
+* Responder dashboards
+* Live incident management
+* Shelter capacity
+* Emergency team coordination
+
+### Accessibility
+
+* More Indian languages
+* Voice-first accessibility
+* Low-bandwidth mode
+* Offline emergency guidance
+* Accessibility support for users with disabilities
+
+### Security
+
+* Strong authentication
+* Role-based access
+* Advanced fraud detection
+* Suspicious SOS detection
+* Audit trails
+* Privacy-preserving location intelligence
+
+---
+
+# 🏆 Hackathon Theme Mapping
+
+| Hackathon Theme  | AapdaMitra AI                                                             |
+| ---------------- | ------------------------------------------------------------------------- |
+| 🎙️ **Voice AI** | Real-time conversational disaster assistant                               |
+| 🔐 **Security**  | Privacy-aware location, secure architecture and emergency-data protection |
+| 📢 **Virality**  | Multilingual Safety Alerts and community information distribution         |
+
+---
+
+# 📌 Project Information
+
+**Project:** AapdaMitra AI
+
+**Tagline:**
+**Every Crisis. Every Voice. Every Indian.**
+
+**Industry:**
+Government / Public Safety
+
+**Themes:**
+Voice AI · Security · Virality
+
+**Repository:**
+`Rishabh-KSingh/AapdaMitra-AI`
+
+**Local Development:**
+`http://localhost:3000`
+
+---
+
+# ❤️ Our Mission
+
+AapdaMitra AI is built with one mission:
+
+> ## **Make emergency assistance more accessible, understandable, secure, and human — for every Indian.**
+
+### 🇮🇳 Every Crisis. Every Voice. Every Indian.

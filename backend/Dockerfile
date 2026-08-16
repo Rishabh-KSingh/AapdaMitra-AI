@@ -53,6 +53,8 @@ RUN uv run "src/agent.py" download-files
 # Build tools (gcc, g++, python3-dev) are not included in the final image
 FROM base
 
+WORKDIR /app
+
 # Create a non-privileged user that the app will run under.
 # See https://docs.docker.com/build/building/best-practices/#user
 ARG UID=10001

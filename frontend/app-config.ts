@@ -33,8 +33,8 @@ export interface AppConfig {
 }
 
 export const APP_CONFIG_DEFAULTS: AppConfig = {
-  companyName: 'AapdaMitra',
-  pageTitle: 'AapdaMitra | AI Disaster Response Assistant',
+  companyName: 'AapdaMitra AI',
+  pageTitle: 'AapdaMitra AI | Disaster Response Assistant',
   pageDescription:
     'A multilingual Voice AI disaster-response assistant for safer, faster community action.',
 

@@ -136,3 +136,29 @@ async def test_gives_immediate_flood_safety_guidance() -> None:
             )
         )
         result.expect.no_more_events()
+
+
+@pytest.mark.asyncio
+async def test_responds_in_hindi() -> None:
+    """The assistant should reply in natural Hindi when asked in Hindi."""
+    async with (
+        _llm() as llm,
+        AgentSession(llm=llm) as session,
+    ):
+        await session.start(Assistant())
+        result = await session.run(user_input="नमस्ते, यहाँ बहुत भारी बारिश और बाढ़ आ गई है, मुझे क्या करना चाहिए?")
+
+        await (
+            result.expect.next_event()
+            .is_message(role="assistant")
+            .judge(
+                llm,
+                intent="""
+                Responds in Hindi (हिन्दी) giving immediate, reassuring flood safety guidance
+                (such as moving to higher ground/safe place, avoiding water, and calling 112 in emergency).
+                The response must be in Hindi.
+                """,
+            )
+        )
+        result.expect.no_more_events()
+

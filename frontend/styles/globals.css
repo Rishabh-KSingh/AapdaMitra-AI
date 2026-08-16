@@ -2,7 +2,7 @@
 @import 'tw-animate-css';
 @source "../node_modules/streamdown/dist/index.js";
 
-@custom-variant dark (&:is(.dark *));
+@custom-variant dark (&:where(.dark, .dark *));
 
 :root {
   --radius: 0.625rem;
@@ -40,37 +40,37 @@
 }
 
 .dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.269 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.371 0 0);
-  --accent-foreground: oklch(0.985 0 0);
+  --background: #081120;
+  --foreground: #e8f0ff;
+  --card: #101d32;
+  --card-foreground: #e8f0ff;
+  --popover: #14243d;
+  --popover-foreground: #e8f0ff;
+  --primary: #4d78dd;
+  --primary-foreground: #ffffff;
+  --secondary: #192b48;
+  --secondary-foreground: #e8f0ff;
+  --muted: #182842;
+  --muted-foreground: #aebfd8;
+  --accent: #223c63;
+  --accent-foreground: #f4f8ff;
   --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
+  --border: #294466;
+  --input: #1c3353;
+  --ring: #80a6ff;
   --chart-1: oklch(0.488 0.243 264.376);
   --chart-2: oklch(0.696 0.17 162.48);
   --chart-3: oklch(0.769 0.188 70.08);
   --chart-4: oklch(0.627 0.265 303.9);
   --chart-5: oklch(0.645 0.246 16.439);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.439 0 0);
+  --sidebar: #0c182b;
+  --sidebar-foreground: #e8f0ff;
+  --sidebar-primary: #4d78dd;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #1a2d4b;
+  --sidebar-accent-foreground: #f4f8ff;
+  --sidebar-border: #294466;
+  --sidebar-ring: #80a6ff;
 }
 
 @theme inline {
@@ -132,8 +132,9 @@
 }
 
 .dark .glass-card {
-  border-color: rgba(71, 85, 105, 0.7);
-  background: rgba(15, 23, 42, 0.76);
+  border-color: rgba(41, 68, 102, 0.85);
+  background: rgba(16, 29, 50, 0.88);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
 }
 
 .chakra-bg {
@@ -172,65 +173,45 @@
 }
 
 .dark .premium-card {
-  border-color: rgba(71, 85, 105, 0.7);
-  background: rgba(15, 23, 42, 0.8);
+  border-color: #294466;
+  background: rgba(16, 29, 50, 0.92);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
 }
 
 .dark .home-hero {
   border-color: #2a3b5e;
   background: linear-gradient(135deg, #111e35 0%, #0d182c 62%, #10283a 100%) !important;
-  box-shadow: 0 20px 42px rgba(0, 0, 0, 0.26);
+  box-shadow: 0 20px 42px rgba(0, 0, 0, 0.3);
 }
 
-.dark body,
-.dark .bg-\[\#f8fbff\] {
+.dark body {
   background: #081120 !important;
+  color: #e8f0ff !important;
 }
 
-.dark .bg-white,
-.dark .bg-white\/80,
-.dark .bg-white\/88,
-.dark .bg-\[\#fbfcff\],
-.dark .bg-\[\#f7f9ff\] {
-  background-color: #101b31 !important;
+.dark input,
+.dark select,
+.dark textarea {
+  color: #f1f6ff !important;
+  background-color: #101d32;
+  border-color: #294466;
 }
 
-.dark .bg-\[\#f1f5ff\],
-.dark .bg-\[\#edf0ff\],
-.dark .bg-\[\#f1f6ff\],
-.dark .bg-\[\#eff9f0\] {
-  background-color: #162644 !important;
+.dark input::placeholder,
+.dark textarea::placeholder {
+  color: #8fa5c7 !important;
+  opacity: 1;
 }
 
-.dark .text-\[\#09156b\],
-.dark .text-\[\#0a1870\],
-.dark .text-slate-600,
-.dark .text-slate-500 {
-  color: #d8e4f8 !important;
-}
-
-.dark .border-\[\#dfe5f1\],
-.dark .border-\[\#e2e6f1\],
-.dark .border-\[\#e4e8f1\],
-.dark .border-\[\#dce4ef\] {
-  border-color: #2a3b5e !important;
-}
-
-.dark .chakra-assistant,
-.dark .chakra-hero,
-.dark .chakra-watermark {
-  opacity: 0.26;
-}
-
-.chakra-hero,
-.chakra-assistant {
+.chakra-hero {
+  border-radius: 9999px;
   background: repeating-conic-gradient(
     from 0deg,
     rgba(16, 35, 128, 0.12) 0deg 1.5deg,
     transparent 1.5deg 15deg
   );
   mask-image: radial-gradient(
-    circle,
+    circle at center,
     transparent 0 8%,
     #000 8.5% 9.5%,
     transparent 10% 43%,
@@ -240,7 +221,40 @@
 }
 
 .chakra-assistant {
-  opacity: 0.58;
+  border-radius: 9999px;
+  background: repeating-conic-gradient(
+    from 0deg,
+    rgba(16, 35, 128, 0.12) 0deg 1.2deg,
+    transparent 1.2deg 15deg
+  );
+  mask-image: radial-gradient(
+    circle at center,
+    transparent 0 22%,
+    #000 23% 25%,
+    transparent 26% 45%,
+    #000 46% 48%,
+    transparent 49% 68%,
+    #000 69% 71%,
+    transparent 72%
+  );
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.dark .chakra-assistant {
+  background: repeating-conic-gradient(
+    from 0deg,
+    rgba(96, 165, 250, 0.18) 0deg 1.2deg,
+    transparent 1.2deg 15deg
+  );
+  opacity: 0.28;
+}
+
+.dark dialog,
+.dark [role="dialog"] {
+  background-color: #101d32 !important;
+  color: #e8f0ff !important;
+  border-color: #294466 !important;
 }
 
 @media (prefers-reduced-motion: reduce) {
